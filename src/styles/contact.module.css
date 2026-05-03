@@ -1,0 +1,174 @@
+.page {
+  min-height: 100vh;
+  background: var(--cedar-dark);
+  padding-top: var(--nav-h);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ─── Hero ─── */
+.hero {
+  width: 100%;
+  text-align: center;
+  padding: 5rem 1.5rem 3rem;
+  background: linear-gradient(180deg, rgba(107,66,38,0.2) 0%, transparent 100%);
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  color: var(--silk);
+  margin-bottom: 0.75rem;
+}
+
+.scriptTag {
+  font-family: var(--font-accent);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--silk-dark);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-family: var(--font-subhead);
+  font-style: italic;
+  color: rgba(245,229,177,0.7);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+}
+
+/* ─── Owner Card ─── */
+.ownerCard {
+  width: min(500px, 90%);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.ownerAvatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cedar), var(--cedar-mid));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  margin: 0 auto 1.25rem;
+  border: 3px solid var(--silk-dark);
+  box-shadow: var(--shadow-gold);
+}
+
+.ownerName {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--silk);
+  margin-bottom: 0.25rem;
+}
+
+.ownerRole {
+  font-family: var(--font-subhead);
+  font-style: italic;
+  color: var(--silk-dark);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ─── CTA Buttons ─── */
+.ctaGroup {
+  width: min(500px, 90%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto 3rem;
+}
+
+.ctaBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.1rem 2rem;
+  border-radius: var(--radius-full);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-base);
+  width: 100%;
+}
+
+.ctaBtnCall {
+  background: var(--cedar);
+  color: var(--silk);
+  border: 2px solid var(--cedar);
+}
+
+.ctaBtnCall:hover {
+  background: var(--cedar-mid);
+  border-color: var(--cedar-mid);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-3px);
+}
+
+.ctaBtnWhatsApp {
+  background: #25D366;
+  color: #fff;
+  border: 2px solid #25D366;
+}
+
+.ctaBtnWhatsApp:hover {
+  background: #1dae54;
+  border-color: #1dae54;
+  box-shadow: 0 0 28px rgba(37,211,102,0.4);
+  transform: translateY(-3px);
+}
+
+/* ─── Info block ─── */
+.infoBlock {
+  width: min(500px, 90%);
+  margin: 0 auto 2rem;
+  padding: 1.5rem 2rem;
+  background: rgba(107,66,38,0.12);
+  border-left: 3px solid var(--cedar);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.infoBlock p {
+  font-size: 0.95rem;
+  color: rgba(245,229,177,0.75);
+  line-height: 1.8;
+}
+
+/* ─── Instagram CTA ─── */
+.igBlock {
+  margin: 1rem auto 4rem;
+  text-align: center;
+}
+
+.igLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-full);
+  border: 2px solid rgba(245,229,177,0.3);
+  color: var(--silk-dark);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all var(--transition-base);
+  text-decoration: none;
+}
+
+.igLink:hover {
+  border-color: var(--silk-dark);
+  color: var(--silk);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold);
+}

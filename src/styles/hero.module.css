@@ -1,0 +1,138 @@
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--cedar-dark);
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding-top: var(--nav-h);
+  padding-bottom: 4rem;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.scriptLabel {
+  font-family: var(--font-accent);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  color: var(--silk-dark);
+  line-height: 1;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 6vw, 5.5rem);
+  font-weight: 900;
+  color: var(--silk);
+  line-height: 1.05;
+}
+
+.subHeadline {
+  font-family: var(--font-subhead);
+  font-style: italic;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+  font-weight: 300;
+  color: var(--silk-dark);
+  margin-top: -0.5rem;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  color: rgba(245,229,177,0.75);
+  max-width: 42ch;
+  line-height: 1.7;
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Right: image block */
+.imageBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.imageRing {
+  position: relative;
+  width: clamp(280px, 38vw, 500px);
+  height: clamp(280px, 38vw, 500px);
+  border-radius: 50%;
+  border: 3px solid var(--cedar);
+  box-shadow: 0 0 0 8px rgba(107,66,38,0.2), 0 0 60px rgba(222,200,130,0.15), var(--shadow-card);
+  overflow: hidden;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 8px rgba(107,66,38,0.2), 0 0 50px rgba(222,200,130,0.12), var(--shadow-card); }
+  50%       { box-shadow: 0 0 0 14px rgba(107,66,38,0.12), 0 0 80px rgba(222,200,130,0.25), var(--shadow-card); }
+}
+
+.heroImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Decorative circles */
+.ringDeco {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(222,200,130,0.15);
+  pointer-events: none;
+}
+
+.ringDeco:nth-child(1) {
+  inset: -16px;
+}
+
+.ringDeco:nth-child(2) {
+  inset: -32px;
+  border-color: rgba(107,66,38,0.2);
+}
+
+@media (max-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: calc(var(--nav-h) + 1rem);
+    padding-bottom: 3rem;
+  }
+
+  .textBlock { order: 2; align-items: center; }
+  .imageBlock { order: 1; }
+
+  .imageRing {
+    width: 220px;
+    height: 220px;
+  }
+
+  .tagline { max-width: 100%; }
+
+  .ctaRow { justify-content: center; }
+}

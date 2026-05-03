@@ -1,0 +1,52 @@
+.fabGroup {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.5rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.fab {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.fabCall {
+  background: var(--cedar);
+  color: var(--silk);
+  box-shadow: 0 4px 20px rgba(107,66,38,0.55);
+}
+
+.fabCall:hover {
+  transform: scale(1.12);
+  box-shadow: var(--shadow-glow);
+}
+
+.fabWa {
+  background: #25D366;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+}
+
+.fabWa:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 28px rgba(37,211,102,0.55);
+}
+
+@media (max-width: 640px) {
+  .fab { width: 48px; height: 48px; font-size: 1.2rem; }
+  .fabGroup { bottom: 1.25rem; right: 1rem; }
+}
