@@ -13,8 +13,8 @@
 **Owner:** Diya Shah  
 **Business Type:** Local custom cake studio — cakes, cookies, and chocolate gift products  
 **Instagram:** [@house_of_bakes__](https://www.instagram.com/house_of_bakes__)  
-**Phone:** +91 99999 99999  
-**WhatsApp:** +91 99999 99999
+**Phone:** +91 99743 58384  
+**WhatsApp:** +91 99743 58384
 
 ### Goal
 Deliver a fully production-ready, client-facing portfolio website for House of Bakes that is visually stunning, mobile-first, and drives direct customer contact (WhatsApp / Call) with zero friction.
@@ -189,8 +189,8 @@ Deliver a fully production-ready, client-facing portfolio website for House of B
   - Role: `Founder & Baker — House of Bakes`
   - Optional small portrait image if available in `public/images/`
 - Two large CTA buttons:
-  - `📞 Call Now` → `tel:+919999999999`
-  - `💬 WhatsApp Us` → `https://wa.me/919999999999`
+  - `📞 Call Now` → `tel:+919974358384`
+  - `💬 WhatsApp Us` → `https://wa.me/919974358384`
   - Button style: full-width on mobile, pill-shaped, `--cedar` filled with `--silk` text
   - Hover: subtle glow shadow in `--cedar-light`
 - Hours / Note block: *"We take custom orders 7 days a week. Reach out for pricing and availability."*
@@ -204,8 +204,8 @@ Deliver a fully production-ready, client-facing portfolio website for House of B
 
 - **Position:** Fixed, bottom-right corner, always visible on all pages
 - **Two buttons stacked vertically:**
-  - Top: 📞 Call button → `tel:+919999999999` — `--cedar` background
-  - Bottom: 💬 WhatsApp button → `https://wa.me/919999999999?text=Hi! I'd like to place a cake order.` — `#25D366` WhatsApp green background
+  - Top: 📞 Call button → `tel:+919974358384` — `--cedar` background
+  - Bottom: 💬 WhatsApp button → `https://wa.me/919974358384?text=Hi! I'd like to place a cake order.` — `#25D366` WhatsApp green background
 - **Design:** Circular, 56px diameter, box shadow with brand color glow
 - **Animation:** Entry — slide-in from right on page load (Framer Motion). Hover — slight scale-up pulse
 - **Mobile:** Same position, slightly smaller (48px)

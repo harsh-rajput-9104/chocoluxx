@@ -13,7 +13,7 @@ export default function FAB() {
       transition={{ type: 'spring', stiffness: 200, damping: 22, delay: 1 }}
     >
       <motion.a
-        href="tel:+919999999999"
+        href="tel:+919974358384"
         className={`${styles.fab} ${styles.fabCall}`}
         data-tip="Call Now"
         whileHover={{ scale: 1.12 }}
@@ -24,7 +24,7 @@ export default function FAB() {
       </motion.a>
 
       <motion.a
-        href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
+        href="https://wa.me/919974358384?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
         target="_blank"
         rel="noopener noreferrer"
         className={`${styles.fab} ${styles.fabWa}`}

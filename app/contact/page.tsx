@@ -47,7 +47,7 @@ export default function ContactPage() {
         viewport={{ once: true }}
       >
         <a
-          href="tel:+919999999999"
+          href="tel:+919974358384"
           className={`${styles.ctaBtn} ${styles.ctaBtnCall}`}
         >
           <span className="sr-only">Call Diya Shah</span>
@@ -55,7 +55,7 @@ export default function ContactPage() {
           <span>Call Now</span>
         </a>
         <a
-          href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
+          href="https://wa.me/919974358384?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
           target="_blank"
           rel="noopener noreferrer"
           className={`${styles.ctaBtn} ${styles.ctaBtnWhatsApp}`}

@@ -30,13 +30,13 @@ export default function Footer() {
         {/* Contact */}
         <div className={styles.contact}>
           <div className={styles.contactTitle}>Connect</div>
-          <a href="tel:+919999999999" className={styles.contactLink}>
+          <a href="tel:+919974358384" className={styles.contactLink}>
             <span className="sr-only">Call us</span>
             <PhoneIcon size={20} color="#DEC882" />
-            <span>+91 99999 99999</span>
+            <span>+91 99743 58384</span>
           </a>
           <a
-            href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
+            href="https://wa.me/919974358384?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactLink}

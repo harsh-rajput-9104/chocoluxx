@@ -84,7 +84,7 @@ export default function HeroSection() {
               View Gallery
             </Link>
             <a
-              href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
+              href="https://wa.me/919974358384?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"

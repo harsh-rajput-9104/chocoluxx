@@ -112,14 +112,14 @@ export default function Navbar() {
                 <InstagramIcon size={24} color="currentColor" />
               </a>
               <a
-                href="tel:+919999999999"
+                href="tel:+919974358384"
                 className={styles.mobileSocialIcon}
               >
                 <span className="sr-only">Call us</span>
                 <PhoneIcon size={24} color="currentColor" />
               </a>
               <a
-                href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
+                href="https://wa.me/919974358384?text=Hi!%20I'd%20like%20to%20place%20a%20cake%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.mobileSocialIcon}
